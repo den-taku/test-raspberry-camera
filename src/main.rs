@@ -16,8 +16,8 @@ fn main() {
 fn simple_sync(info: &CameraInfo) {
     let mut camera = SimpleCamera::new(info.clone()).unwrap();
     let settings = CameraSettings {
-        width: 800,
-        height: 600,
+        // width: 800,
+        // height: 600,
         ..CameraSettings::default()
     };
     camera.configure(settings);
