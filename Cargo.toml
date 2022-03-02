@@ -1,5 +1,5 @@
 [package]
-name = "rust-template"
+name = "test-raspberry-camera"
 version = "0.1.0"
 repository = "https://github.com/den-taku/rust-template"
 description = ""
@@ -13,6 +13,4 @@ license-file = "LICENSE"
 readme = "README.md"
 
 [dependencies]
-
-[profile.release]
-strip = "debuginfo"
+rascam = { version ="0.0.2", features = ["debug"] }
